@@ -1,11 +1,5 @@
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/188c42f8-d249-4a72-b27a-e2b4f10a00a8" alt="EduLearn Android Logo" width="480">
-</p>
 
-> [!WARNING]
-> This project is currently in active development and has not been published or open-sourced. It has not received an external security review. Do not use it for sensitive use cases until it has been audited.
-
-# EduLearn for Android
+## EduLearn for Android
 
 EduLearn is a collaborative learning platform built on **offline mesh networking**. It enables secure, decentralized peer-to-peer messaging and educational content sharing over Bluetooth LE — no internet, no servers, no phone numbers required.
 
