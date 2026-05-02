@@ -52,6 +52,27 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withTimeoutOrNull
 
+// Added imports for AppModeSelectionScreen
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.ChatBubbleOutline
+import androidx.compose.material.icons.outlined.School
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Icon
+import androidx.compose.ui.draw.drawBehind
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.sp
+
 // App mode selection
 enum class AppMode {
     CHAT, EDUCATIONAL
@@ -61,35 +82,115 @@ enum class AppMode {
 fun AppModeSelectionScreen(
     onModeSelected: (AppMode) -> Unit
 ) {
-    Column(
+    androidx.compose.foundation.layout.Box(
         modifier = Modifier
             .fillMaxSize()
-            .padding(16.dp),
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
+            .background(Color(0xFFF8F9FF))
+            .drawBehind {
+                val dotRadius = 1.5f
+                val spacing = 48f
+                val color = Color(0xFFD4E4FA)
+                var x = spacing / 2
+                while (x < size.width) {
+                    var y = spacing / 2
+                    while (y < size.height) {
+                        drawCircle(color = color, radius = dotRadius, center = Offset(x, y))
+                        y += spacing
+                    }
+                    x += spacing
+                }
+            }
     ) {
-        Text(
-            text = "Choose App Mode",
-            style = MaterialTheme.typography.headlineMedium,
-            modifier = Modifier.padding(bottom = 32.dp)
-        )
-        
-        Button(
-            onClick = { onModeSelected(AppMode.CHAT) },
+        Column(
             modifier = Modifier
-                .fillMaxWidth()
-                .padding(vertical = 8.dp)
+                .fillMaxSize()
+                .padding(horizontal = 24.dp),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Text("Chat Mode")
-        }
-        
-        Button(
-            onClick = { onModeSelected(AppMode.EDUCATIONAL) },
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(vertical = 8.dp)
-        ) {
-            Text("Educational Mode")
+            Text(
+                text = "Choose App\nMode",
+                fontSize = 40.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color(0xFF0D1C2D),
+                textAlign = TextAlign.Center,
+                lineHeight = 44.sp,
+                fontFamily = FontFamily.SansSerif,
+                letterSpacing = (-0.8).sp,
+                modifier = Modifier.padding(bottom = 12.dp)
+            )
+            
+            Text(
+                text = "Select your preferred learning experience",
+                fontSize = 16.sp,
+                color = Color(0xFF464554),
+                fontFamily = FontFamily.SansSerif,
+                modifier = Modifier.padding(bottom = 48.dp)
+            )
+            
+            Button(
+                onClick = { onModeSelected(AppMode.CHAT) },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(64.dp)
+                    .padding(vertical = 8.dp),
+                shape = RoundedCornerShape(50),
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = Color(0xFF4648D4)
+                )
+            ) {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
+                ) {
+                    Icon(
+                        imageVector = Icons.Outlined.ChatBubbleOutline,
+                        contentDescription = null,
+                        modifier = Modifier.size(20.dp),
+                        tint = Color.White
+                    )
+                    Spacer(modifier = Modifier.width(12.dp))
+                    Text(
+                        text = "Chat Mode",
+                        fontSize = 16.sp,
+                        fontWeight = FontWeight.SemiBold,
+                        color = Color.White,
+                        fontFamily = FontFamily.SansSerif
+                    )
+                }
+            }
+            
+            Button(
+                onClick = { onModeSelected(AppMode.EDUCATIONAL) },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(64.dp)
+                    .padding(vertical = 8.dp),
+                shape = RoundedCornerShape(50),
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = Color(0xFF4648D4)
+                )
+            ) {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
+                ) {
+                    Icon(
+                        imageVector = Icons.Outlined.School,
+                        contentDescription = null,
+                        modifier = Modifier.size(22.dp),
+                        tint = Color.White
+                    )
+                    Spacer(modifier = Modifier.width(12.dp))
+                    Text(
+                        text = "Educational Mode",
+                        fontSize = 16.sp,
+                        fontWeight = FontWeight.SemiBold,
+                        color = Color.White,
+                        fontFamily = FontFamily.SansSerif
+                    )
+                }
+            }
         }
     }
 }
