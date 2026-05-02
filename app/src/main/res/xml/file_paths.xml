@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Internal storage files directory - ALL files -->
+    <files-path name="files" path="." />
+    
+    <!-- Specific received documents folder -->
+    <files-path name="received_documents" path="received_documents/" />
+    
+    <!-- Cache directory for temporary files -->
+    <cache-path name="cache" path="." />
+    
+    <!-- External storage (if needed in future) -->
+    <external-files-path name="external_files" path="." />
+</paths>

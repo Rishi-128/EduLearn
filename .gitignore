@@ -1,0 +1,55 @@
+# Android Studio / IntelliJ
+.idea/
+*.iml
+local.properties
+captures/
+.externalNativeBuild/
+debug_keystore/
+debug.keystore
+
+# Gradle
+.gradle/
+build/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Kotlin compiler cache
+.kotlin/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linters
+.lint/
+
+# Logs & crash dumps
+*.log
+
+# Build artifacts
+.cxx/
+out/
+gen/
+
+# Backup & draft files
+*.backup
+*.kt.txt
+
+# Google services
+google-services.json
+
+# Keystore files
+*.jks
+*.keystore
+
+# Editor temp files
+*~
+*.swp
+
+# Other
+.goosehints

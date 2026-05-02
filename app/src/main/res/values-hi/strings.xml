@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EduLearn</string>
+    
+    <!-- Educational Mode Strings - Hindi -->
+    <!-- Mode Selection -->
+    <string name="select_mode">मोड चुनें</string>
+    <string name="educational_mode">शैक्षिक मोड</string>
+    <string name="educational_mode_desc">शिक्षकों और छात्रों के लिए</string>
+    <string name="regular_mode">नियमित मोड</string>
+    <string name="regular_mode_desc">मानक EduLearn अनुभव</string>
+    
+    <!-- Authentication -->
+    <string name="welcome">स्वागत है</string>
+    <string name="login">लॉगिन</string>
+    <string name="register">रजिस्टर करें</string>
+    <string name="name">नाम</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="i_am_a">मैं हूं</string>
+    <string name="teacher">शिक्षक</string>
+    <string name="student">छात्र</string>
+    <string name="enter_name">अपना नाम दर्ज करें</string>
+    <string name="enter_email">अपना ईमेल दर्ज करें</string>
+    <string name="enter_password">अपना पासवर्ड दर्ज करें</string>
+    <string name="already_have_account">पहले से खाता है?</string>
+    <string name="dont_have_account">खाता नहीं है?</string>
+    <string name="login_here">यहाँ लॉगिन करें</string>
+    <string name="register_here">यहाँ रजिस्टर करें</string>
+    
+    <!-- Teacher Dashboard -->
+    <string name="teacher_dashboard">शिक्षक डैशबोर्ड</string>
+    <string name="quick_actions">त्वरित कार्य</string>
+    <string name="create_quiz">क्विज़ बनाएं</string>
+    <string name="students_online_now">अभी ऑनलाइन छात्र</string>
+    <string name="students_currently_online">%d छात्र वर्तमान में ऑनलाइन</string>
+    <string name="all_registered_students">सभी पंजीकृत छात्र</string>
+    <string name="total_students">कुल %d छात्र</string>
+    <string name="share_documents">दस्तावेज़ साझा करें</string>
+    <string name="view_submissions">प्रस्तुतियाँ देखें</string>
+    <string name="manage_quizzes">क्विज़ प्रबंधित करें</string>
+    <string name="online">ऑनलाइन</string>
+    <string name="offline">ऑफलाइन</string>
+    
+    <!-- Student Dashboard -->
+    <string name="student_dashboard">छात्र डैशबोर्ड</string>
+    <string name="my_courses">मेरे पाठ्यक्रम</string>
+    <string name="available_resources">उपलब्ध संसाधन</string>
+    <string name="take_quiz">क्विज़ दें</string>
+    <string name="view_documents">दस्तावेज़ देखें</string>
+    <string name="community_chat">सामुदायिक चैट</string>
+    <string name="no_resources_available">कोई संसाधन उपलब्ध नहीं</string>
+    <string name="no_quizzes_available">कोई क्विज़ उपलब्ध नहीं</string>
+    
+    <!-- Quiz -->
+    <string name="quiz">क्विज़</string>
+    <string name="start_quiz">क्विज़ शुरू करें</string>
+    <string name="submit_quiz">क्विज़ जमा करें</string>
+    <string name="question">प्रश्न %d</string>
+    <string name="time_remaining">शेष समय: %s</string>
+    <string name="score">स्कोर: %1$d/%2$d</string>
+    <string name="quiz_completed">क्विज़ पूर्ण!</string>
+    <string name="your_score">आपका स्कोर</string>
+    <string name="correct_answers">सही उत्तर</string>
+    <string name="wrong_answers">गलत उत्तर</string>
+    <string name="quiz_title">क्विज़ शीर्षक</string>
+    <string name="quiz_description">क्विज़ विवरण</string>
+    <string name="add_question">प्रश्न जोड़ें</string>
+    <string name="question_text">प्रश्न पाठ</string>
+    <string name="option">विकल्प %d</string>
+    <string name="correct_answer">सही उत्तर</string>
+    <string name="time_limit_minutes">समय सीमा (मिनट)</string>
+    <string name="create">बनाएं</string>
+    <string name="cancel">रद्द करें</string>
+    
+    <!-- Documents -->
+    <string name="documents">दस्तावेज़</string>
+    <string name="share_document">दस्तावेज़ साझा करें</string>
+    <string name="received_documents">प्राप्त दस्तावेज़</string>
+    <string name="document_name">दस्तावेज़ नाम</string>
+    <string name="sender">प्रेषक</string>
+    <string name="received_at">प्राप्त किया</string>
+    <string name="open">खोलें</string>
+    <string name="delete">हटाएं</string>
+    <string name="no_documents">कोई दस्तावेज़ उपलब्ध नहीं</string>
+    <string name="scanning">स्कैन कर रहे हैं...</string>
+    <string name="scan_devices">डिवाइस स्कैन करें</string>
+    <string name="stop_scan">स्कैन रोकें</string>
+    <string name="select_device">डिवाइस चुनें</string>
+    <string name="sharing">साझा कर रहे हैं...</string>
+    <string name="share_success">सफलतापूर्वक साझा किया गया</string>
+    <string name="share_failed">साझा करना विफल</string>
+    
+    <!-- Video Library -->
+    <string name="video_library">वीडियो लाइब्रेरी</string>
+    <string name="download_video">वीडियो डाउनलोड करें</string>
+    <string name="play_video">वीडियो चलाएं</string>
+    <string name="no_videos">कोई वीडियो उपलब्ध नहीं</string>
+    <string name="downloading">डाउनलोड हो रहा है...</string>
+    <string name="download_complete">डाउनलोड पूर्ण</string>
+    
+    <!-- Device Scanner -->
+    <string name="device_scanner">डिवाइस स्कैनर</string>
+    <string name="nearby_devices">आस-पास के डिवाइस</string>
+    <string name="no_devices_found">कोई डिवाइस नहीं मिला</string>
+    <string name="start_scanning">स्कैनिंग शुरू करें</string>
+    <string name="device_name">डिवाइस नाम</string>
+    <string name="device_id">डिवाइस ID</string>
+    <string name="signal_strength">सिग्नल शक्ति</string>
+    <string name="last_seen">अंतिम बार देखा गया</string>
+    
+    <!-- File Manager -->
+    <string name="file_manager">फ़ाइल प्रबंधक</string>
+    <string name="my_files">मेरी फ़ाइलें</string>
+    <string name="upload_file">फ़ाइल अपलोड करें</string>
+    <string name="download_file">फ़ाइल डाउनलोड करें</string>
+    <string name="file_size">फ़ाइल का आकार</string>
+    <string name="file_type">फ़ाइल प्रकार</string>
+    <string name="uploaded_at">अपलोड किया गया</string>
+    
+    <!-- Chat -->
+    <string name="chat">चैट</string>
+    <string name="send">भेजें</string>
+    <string name="type_message">संदेश लिखें...</string>
+    <string name="no_messages">अभी तक कोई संदेश नहीं</string>
+    
+    <!-- Navigation -->
+    <string name="home">होम</string>
+    <string name="resources">संसाधन</string>
+    <string name="quizzes">क्विज़</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="logout">लॉगआउट</string>
+    <string name="back_to_mode_selection">मोड चयन पर वापस जाएं</string>
+    
+    <!-- Language -->
+    <string name="language">भाषा</string>
+    <string name="change_language">भाषा बदलें</string>
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    
+    <!-- App Mode Selection -->
+    <string name="choose_your_mode">अपना मोड चुनें</string>
+    <string name="chat_mode">चैट मोड</string>
+    <string name="chat_mode_desc">दोस्तों और समुदाय के साथ सुरक्षित P2P संदेशों के लिए EduLearn का उपयोग करें</string>
+    <string name="student_mode">छात्र मोड</string>
+    <string name="student_mode_desc">शैक्षिक वीडियो, क्विज़ और अपनी सीखने की प्रगति को ट्रैक करें</string>
+    <string name="teacher_mode">शिक्षक मोड</string>
+    <string name="teacher_mode_desc">क्विज़ बनाएं, छात्र प्रगति की निगरानी करें और शैक्षिक सामग्री प्रबंधित करें</string>
+    
+    <!-- Role Display -->
+    <string name="role_teacher">शिक्षक</string>
+    <string name="role_student">छात्र</string>
+    
+    <!-- Common -->
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="ok">ठीक है</string>
+    <string name="close">बंद करें</string>
+    <string name="save">सहेजें</string>
+    <string name="loading">लोड हो रहा है...</string>
+    <string name="error">त्रुटि</string>
+    <string name="success">सफलता</string>
+    <string name="confirm">पुष्टि करें</string>
+    <string name="search">खोजें</string>
+    <string name="filter">फ़िल्टर</string>
+    <string name="sort">क्रमबद्ध करें</string>
+    <string name="refresh">रीफ़्रेश करें</string>
+</resources>

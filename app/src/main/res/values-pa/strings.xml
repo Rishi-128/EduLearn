@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">EduLearn</string>
+    
+    <!-- Permissions -->
+    <string name="permission_bluetooth_rationale">ਬਿਨਾਂ ਇੰਟਰਨੈੱਟ ਦੇ ਮੈਸੇਜਿੰਗ ਲਈ ਬਲੂਟੁੱਥ ਅਨੁਮਤੀ ਜ਼ਰੂਰੀ ਹੈ।</string>
+    <string name="permission_location_rationale">ਬਲੂਟੁੱਥ ਰਾਹੀਂ ਨੇੜਲੇ ਡਿਵਾਈਸ ਖੋਜਣ ਲਈ ਟਿਕਾਣਾ ਅਨੁਮਤੀ ਜ਼ਰੂਰੀ ਹੈ।</string>
+    <string name="permission_notification_rationale">ਨਵੇਂ ਸੁਨੇਹੇ ਦੀ ਸੂਚਨਾ ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਅਨੁਮਤੀ ਜ਼ਰੂਰੀ ਹੈ।</string>
+    <string name="nickname_hint">ਉਪਨਾਮ</string>
+    <string name="message_hint">ਸੁਨੇਹਾ ਲਿਖੋ…</string>
+    <string name="channel_password_hint">ਪਾਸਵਰਡ</string>
+    <string name="join_channel">ਚੈਨਲ ਜੁੜੋ</string>
+    <string name="leave_channel">ਛੱਡੋ</string>
+    <string name="send_message">ਭੇਜੋ</string>
+    <string name="show_commands">ਕਮਾਂਡ ਵਿਖਾਓ</string>
+    <string name="back">ਪਿੱਛੇ</string>
+    <string name="people">ਲੋਕ</string>
+    <string name="channels">ਚੈਨਲ</string>
+    <string name="online_users">ਔਨਲਾਈਨ ਵਰਤੋਂਕਾਰ</string>
+    <string name="no_one_connected">ਕੋਈ ਨਹੀਂ ਜੁੜਿਆ</string>
+    <string name="emergency_clear_hint">ਸਾਰਾ ਡਾਟਾ ਸਾਫ਼ ਕਰਨ ਲਈ ਤਿੰਨ ਵਾਰ ਟੈਪ ਕਰੋ</string>
+    <string name="your_network">ਨੈੱਟਵਰਕ</string>
+    
+    <!-- Battery Optimization -->
+    <string name="battery_optimization_detected">ਬੈਟਰੀ ਅਨੁਕੂਲਨ ਲੱਗਾ ਹੈ</string>
+    <string name="battery_optimization_disabled">ਬੈਟਰੀ ਅਨੁਕੂਲਨ ਬੰਦ ਹੈ</string>
+    <string name="battery_optimization_not_required">ਬੈਟਰੀ ਅਨੁਕੂਲਨ ਦੀ ਲੋੜ ਨਹੀਂ</string>
+    <string name="battery_optimization_checking">ਬੈਟਰੀ ਅਨੁਕੂਲਨ ਜਾਂਚ ਰਹੇ ਹਾਂ</string>
+    <string name="battery_optimization_why_disable">ਬੈਟਰੀ ਅਨੁਕੂਲਨ ਕਿਉਂ ਬੰਦ ਕਰੀਏ?</string>
+    <string name="battery_optimization_explanation">EduLearn ਨੇੜਲੇ ਡਿਵਾਈਸਾਂ ਨਾਲ ਮੈਸ਼ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ਬਣਾਈ ਰੱਖਣ ਲਈ ਬੈਕਗ੍ਰਾਉਂਡ ਵਿੱਚ ਚੱਲਦੀ ਹੈ। ਬੈਟਰੀ ਅਨੁਕੂਲਨ ਇਹਨਾਂ ਕਨੈਕਸ਼ਨਾਂ ਵਿੱਚ ਰੁਕਾਵਟ ਪਾ ਸਕਦਾ ਹੈ।\n\nਬੈਟਰੀ ਅਨੁਕੂਲਨ ਬੰਦ ਕਰਨ ਨਾਲ ਭਰੋਸੇਮੰਦ ਮੈਸੇਜਿੰਗ ਮਿਲਦੀ ਹੈ।</string>
+    <string name="battery_optimization_disable_button">ਬੈਟਰੀ ਅਨੁਕੂਲਨ ਬੰਦ ਕਰੋ</string>
+    <string name="battery_optimization_note">ਨੋਟ: ਤੁਸੀਂ ਇਸ ਸੈਟਿੰਗ ਨੂੰ ਬਾਅਦ ਵਿੱਚ Android Settings > Apps > EduLearn > Battery ਤੋਂ ਬਦਲ ਸਕਦੇ ਹੋ</string>
+    <string name="battery_optimization_not_supported_explanation">ਤੁਹਾਡੇ ਡਿਵਾਈਸ ਨੂੰ ਬੈਟਰੀ ਅਨੁਕੂਲਨ ਸੈਟਿੰਗ ਦੀ ਲੋੜ ਨਹੀਂ। EduLearn ਆਮ ਤੌਰ \'ਤੇ ਚੱਲੇਗੀ।</string>
+    <string name="battery_optimization_not_supported_message">ਤੁਹਾਡੇ ਡਿਵਾਈਸ ਨੂੰ ਬੈਟਰੀ ਅਨੁਕੂਲਨ ਸੈਟਿੰਗ ਦੀ ਲੋੜ ਨਹੀਂ। EduLearn ਆਮ ਤੌਰ \'ਤੇ ਚੱਲੇਗੀ।</string>
+    <string name="battery_optimization_success_message">EduLearn ਹੁਣ ਬੈਕਗ੍ਰਾਉਂਡ ਵਿੱਚ ਭਰੋਸੇਮੰਦ ਢੰਗ ਨਾਲ ਚੱਲ ਸਕਦੀ ਹੈ</string>
+    <string name="battery_optimization_benefits">• ਭਰੋਸੇਮੰਦ ਸੁਨੇਹਾ ਡਿਲੀਵਰੀ\n• ਮੈਸ਼ ਨੈੱਟਵਰਕ ਕਨੈਕਟੀਵਿਟੀ ਬਣਾਈ ਰੱਖਦੀ ਹੈ\n• ਬੈਕਗ੍ਰਾਉਂਡ ਸੁਨੇਹਾ ਰੀਲੇਅ\n• ਕਨੈਕਸ਼ਨ ਡਰੌਪ ਰੋਕਦੀ ਹੈ</string>
+    <string name="battery_optimization_check_again">ਦੁਬਾਰਾ ਜਾਂਚੋ</string>
+    <string name="battery_optimization_skip">ਹੁਣ ਲਈ ਛੱਡੋ</string>
+    <string name="battery_optimization_continue">ਜਾਰੀ ਰੱਖੋ</string>
+    <string name="retry">ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="skip">ਛੱਡੋ</string>
+    
+    <!-- Mode Selection -->
+    <string name="select_mode">ਮੋਡ ਚੁਣੋ</string>
+    <string name="educational_mode">ਸਿੱਖਿਆ ਮੋਡ</string>
+    <string name="educational_mode_desc">ਅਧਿਆਪਕਾਂ ਅਤੇ ਵਿਦਿਆਰਥੀਆਂ ਲਈ</string>
+    <string name="regular_mode">ਨਿਯਮਤ ਮੋਡ</string>
+    <string name="regular_mode_desc">ਮਿਆਰੀ EduLearn ਅਨੁਭਵ</string>
+    
+    <!-- Authentication -->
+    <string name="welcome">ਜੀ ਆਇਆਂ ਨੂੰ</string>
+    <string name="login">ਲਾਗਇਨ</string>
+    <string name="register">ਰਜਿਸਟਰ ਕਰੋ</string>
+    <string name="name">ਨਾਮ</string>
+    <string name="email">ਈਮੇਲ</string>
+    <string name="password">ਪਾਸਵਰਡ</string>
+    <string name="i_am_a">ਮੈਂ ਇੱਕ ਹਾਂ</string>
+    <string name="teacher">ਅਧਿਆਪਕ</string>
+    <string name="student">ਵਿਦਿਆਰਥੀ</string>
+    <string name="enter_name">ਆਪਣਾ ਨਾਮ ਦਰਜ ਕਰੋ</string>
+    <string name="enter_email">ਆਪਣੀ ਈਮੇਲ ਦਰਜ ਕਰੋ</string>
+    <string name="enter_password">ਆਪਣਾ ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ</string>
+    <string name="already_have_account">ਪਹਿਲਾਂ ਤੋਂ ਖਾਤਾ ਹੈ?</string>
+    <string name="dont_have_account">ਖਾਤਾ ਨਹੀਂ ਹੈ?</string>
+    <string name="login_here">ਇੱਥੇ ਲਾਗਇਨ ਕਰੋ</string>
+    <string name="register_here">ਇੱਥੇ ਰਜਿਸਟਰ ਕਰੋ</string>
+    
+    <!-- Teacher Dashboard -->
+    <string name="teacher_dashboard">ਅਧਿਆਪਕ ਡੈਸ਼ਬੋਰਡ</string>
+    <string name="quick_actions">ਤੇਜ਼ ਕਾਰਵਾਈਆਂ</string>
+    <string name="create_quiz">ਕੁਇਜ਼ ਬਣਾਓ</string>
+    <string name="students_online_now">ਹੁਣ ਔਨਲਾਈਨ ਵਿਦਿਆਰਥੀ</string>
+    <string name="students_currently_online">%d ਵਿਦਿਆਰਥੀ ਹੁਣ ਔਨਲਾਈਨ ਹਨ</string>
+    <string name="all_registered_students">ਸਾਰੇ ਰਜਿਸਟਰਡ ਵਿਦਿਆਰਥੀ</string>
+    <string name="total_students">ਕੁੱਲ %d ਵਿਦਿਆਰਥੀ</string>
+    <string name="share_documents">ਦਸਤਾਵੇਜ਼ ਸਾਂਝੇ ਕਰੋ</string>
+    <string name="view_submissions">ਸਬਮਿਸ਼ਨ ਵੇਖੋ</string>
+    <string name="manage_quizzes">ਕੁਇਜ਼ਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ</string>
+    <string name="online">ਔਨਲਾਈਨ</string>
+    <string name="offline">ਔਫਲਾਈਨ</string>
+    
+    <!-- Student Dashboard -->
+    <string name="student_dashboard">ਵਿਦਿਆਰਥੀ ਡੈਸ਼ਬੋਰਡ</string>
+    <string name="my_courses">ਮੇਰੇ ਕੋਰਸ</string>
+    <string name="available_resources">ਉਪਲਬਧ ਸਰੋਤ</string>
+    <string name="take_quiz">ਕੁਇਜ਼ ਲਓ</string>
+    <string name="view_documents">ਦਸਤਾਵੇਜ਼ ਵੇਖੋ</string>
+    <string name="community_chat">ਕਮਿਊਨਿਟੀ ਚੈਟ</string>
+    <string name="no_resources_available">ਕੋਈ ਸਰੋਤ ਉਪਲਬਧ ਨਹੀਂ</string>
+    <string name="no_quizzes_available">ਕੋਈ ਕੁਇਜ਼ ਉਪਲਬਧ ਨਹੀਂ</string>
+    
+    <!-- Quiz -->
+    <string name="quiz">ਕੁਇਜ਼</string>
+    <string name="start_quiz">ਕੁਇਜ਼ ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="submit_quiz">ਕੁਇਜ਼ ਜਮ੍ਹਾਂ ਕਰੋ</string>
+    <string name="question">ਸਵਾਲ %d</string>
+    <string name="time_remaining">ਬਾਕੀ ਸਮਾਂ: %s</string>
+    <string name="score">ਸਕੋਰ: %1$d/%2$d</string>
+    <string name="quiz_completed">ਕੁਇਜ਼ ਪੂਰੀ ਹੋਈ!</string>
+    <string name="your_score">ਤੁਹਾਡਾ ਸਕੋਰ</string>
+    <string name="correct_answers">ਸਹੀ ਜਵਾਬ</string>
+    <string name="wrong_answers">ਗਲਤ ਜਵਾਬ</string>
+    <string name="quiz_title">ਕੁਇਜ਼ ਸਿਰਲੇਖ</string>
+    <string name="quiz_description">ਕੁਇਜ਼ ਵੇਰਵਾ</string>
+    <string name="add_question">ਸਵਾਲ ਜੋੜੋ</string>
+    <string name="question_text">ਸਵਾਲ ਟੈਕਸਟ</string>
+    <string name="option">ਵਿਕਲਪ %d</string>
+    <string name="correct_answer">ਸਹੀ ਜਵਾਬ</string>
+    <string name="time_limit_minutes">ਸਮਾਂ ਸੀਮਾ (ਮਿੰਟ)</string>
+    <string name="create">ਬਣਾਓ</string>
+    <string name="cancel">ਰੱਦ ਕਰੋ</string>
+    
+    <!-- Documents -->
+    <string name="documents">ਦਸਤਾਵੇਜ਼</string>
+    <string name="share_document">ਦਸਤਾਵੇਜ਼ ਸਾਂਝਾ ਕਰੋ</string>
+    <string name="received_documents">ਪ੍ਰਾਪਤ ਦਸਤਾਵੇਜ਼</string>
+    <string name="document_name">ਦਸਤਾਵੇਜ਼ ਨਾਮ</string>
+    <string name="sender">ਭੇਜਣ ਵਾਲਾ</string>
+    <string name="received_at">ਪ੍ਰਾਪਤ ਸਮਾਂ</string>
+    <string name="open">ਖੋਲ੍ਹੋ</string>
+    <string name="delete">ਮਿਟਾਓ</string>
+    <string name="no_documents">ਕੋਈ ਦਸਤਾਵੇਜ਼ ਉਪਲਬਧ ਨਹੀਂ</string>
+    <string name="scanning">ਸਕੈਨ ਕਰ ਰਹੇ ਹਾਂ...</string>
+    <string name="scan_devices">ਡਿਵਾਈਸ ਸਕੈਨ ਕਰੋ</string>
+    <string name="stop_scan">ਸਕੈਨ ਬੰਦ ਕਰੋ</string>
+    <string name="select_device">ਡਿਵਾਈਸ ਚੁਣੋ</string>
+    <string name="sharing">ਸਾਂਝਾ ਕਰ ਰਹੇ ਹਾਂ...</string>
+    <string name="share_success">ਸਫਲਤਾਪੂਰਵਕ ਸਾਂਝਾ ਕੀਤਾ</string>
+    <string name="share_failed">ਸਾਂਝਾ ਕਰਨਾ ਅਸਫਲ</string>
+    
+    <!-- Video Library -->
+    <string name="video_library">ਵੀਡੀਓ ਲਾਇਬ੍ਰੇਰੀ</string>
+    <string name="download_video">ਵੀਡੀਓ ਡਾਊਨਲੋਡ ਕਰੋ</string>
+    <string name="play_video">ਵੀਡੀਓ ਚਲਾਓ</string>
+    <string name="no_videos">ਕੋਈ ਵੀਡੀਓ ਉਪਲਬਧ ਨਹੀਂ</string>
+    <string name="downloading">ਡਾਊਨਲੋਡ ਹੋ ਰਹੀ ਹੈ...</string>
+    <string name="download_complete">ਡਾਊਨਲੋਡ ਪੂਰੀ ਹੋਈ</string>
+    
+    <!-- Device Scanner -->
+    <string name="device_scanner">ਡਿਵਾਈਸ ਸਕੈਨਰ</string>
+    <string name="nearby_devices">ਨੇੜਲੇ ਡਿਵਾਈਸ</string>
+    <string name="no_devices_found">ਕੋਈ ਡਿਵਾਈਸ ਨਹੀਂ ਮਿਲਿਆ</string>
+    <string name="start_scanning">ਸਕੈਨਿੰਗ ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="device_name">ਡਿਵਾਈਸ ਨਾਮ</string>
+    <string name="device_id">ਡਿਵਾਈਸ ID</string>
+    <string name="signal_strength">ਸਿਗਨਲ ਤਾਕਤ</string>
+    <string name="last_seen">ਆਖਰੀ ਵਾਰ ਵੇਖਿਆ</string>
+    
+    <!-- File Manager -->
+    <string name="file_manager">ਫਾਈਲ ਮੈਨੇਜਰ</string>
+    <string name="my_files">ਮੇਰੀਆਂ ਫਾਈਲਾਂ</string>
+    <string name="upload_file">ਫਾਈਲ ਅੱਪਲੋਡ ਕਰੋ</string>
+    <string name="download_file">ਫਾਈਲ ਡਾਊਨਲੋਡ ਕਰੋ</string>
+    <string name="file_size">ਫਾਈਲ ਸਾਈਜ਼</string>
+    <string name="file_type">ਫਾਈਲ ਕਿਸਮ</string>
+    <string name="uploaded_at">ਅੱਪਲੋਡ ਸਮਾਂ</string>
+    
+    <!-- Chat -->
+    <string name="chat">ਚੈਟ</string>
+    <string name="send">ਭੇਜੋ</string>
+    <string name="type_message">ਸੁਨੇਹਾ ਲਿਖੋ...</string>
+    <string name="no_messages">ਅਜੇ ਕੋਈ ਸੁਨੇਹਾ ਨਹੀਂ</string>
+    
+    <!-- Navigation -->
+    <string name="home">ਘਰ</string>
+    <string name="resources">ਸਰੋਤ</string>
+    <string name="quizzes">ਕੁਇਜ਼ਾਂ</string>
+    <string name="profile">ਪ੍ਰੋਫਾਈਲ</string>
+    <string name="settings">ਸੈਟਿੰਗਾਂ</string>
+    <string name="logout">ਲਾਗਆਊਟ</string>
+    <string name="back_to_mode_selection">ਮੋਡ ਚੋਣ \'ਤੇ ਵਾਪਸ</string>
+    
+    <!-- Language -->
+    <string name="language">ਭਾਸ਼ਾ</string>
+    <string name="change_language">ਭਾਸ਼ਾ ਬਦਲੋ</string>
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="punjabi">ਪੰਜਾਬੀ</string>
+    
+    <!-- App Mode Selection -->
+    <string name="choose_your_mode">ਆਪਣਾ ਮੋਡ ਚੁਣੋ</string>
+    <string name="chat_mode">ਚੈਟ ਮੋਡ</string>
+    <string name="chat_mode_desc">ਦੋਸਤਾਂ ਅਤੇ ਕਮਿਊਨਿਟੀ ਨਾਲ ਸੁਰੱਖਿਅਤ P2P ਮੈਸੇਜਿੰਗ ਲਈ EduLearn ਵਰਤੋਂ</string>
+    <string name="student_mode">ਵਿਦਿਆਰਥੀ ਮੋਡ</string>
+    <string name="student_mode_desc">ਸਿੱਖਿਆ ਵੀਡੀਓ, ਕੁਇਜ਼ਾਂ ਅਤੇ ਆਪਣੀ ਸਿੱਖਣ ਪ੍ਰਗਤੀ ਨੂੰ ਟਰੈਕ ਕਰੋ</string>
+    <string name="teacher_mode">ਅਧਿਆਪਕ ਮੋਡ</string>
+    <string name="teacher_mode_desc">ਕੁਇਜ਼ ਬਣਾਓ, ਵਿਦਿਆਰਥੀ ਪ੍ਰਗਤੀ ਦੀ ਨਿਗਰਾਨੀ ਕਰੋ ਅਤੇ ਸਿੱਖਿਆ ਸਾਮਗਰੀ ਪ੍ਰਬੰਧਿਤ ਕਰੋ</string>
+    
+    <!-- Role Display -->
+    <string name="role_teacher">ਅਧਿਆਪਕ</string>
+    <string name="role_student">ਵਿਦਿਆਰਥੀ</string>
+    
+    <!-- Common -->
+    <string name="yes">ਹਾਂ</string>
+    <string name="no">ਨਹੀਂ</string>
+    <string name="ok">ਠੀਕ ਹੈ</string>
+    <string name="close">ਬੰਦ ਕਰੋ</string>
+    <string name="save">ਸੇਵ ਕਰੋ</string>
+    <string name="loading">ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...</string>
+    <string name="error">ਗਲਤੀ</string>
+    <string name="success">ਸਫਲਤਾ</string>
+    <string name="confirm">ਪੁਸ਼ਟੀ ਕਰੋ</string>
+    <string name="search">ਖੋਜ</string>
+    <string name="filter">ਫਿਲਟਰ</string>
+    <string name="sort">ਕ੍ਰਮਬੱਧ</string>
+    <string name="refresh">ਤਾਜ਼ਾ ਕਰੋ</string>
+</resources>
