@@ -213,3 +213,6 @@ EduLearn uses an efficient binary protocol optimized for Bluetooth LE:
 - [ ] Wi-Fi handoff for large file transfers (>5MB)
 - [ ] AES-256 encrypted tag storage
 - [ ] Google Play Store release
+
+
+//End of line//
