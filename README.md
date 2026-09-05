@@ -1,7 +1,7 @@
 
 ## EduLearn for Android
 
-EduLearn is a collaborative learning platform built on **offline mesh networking**. It enables secure, decentralized peer-to-peer messaging and educational content sharing over Bluetooth LE — no internet, no servers, no phone numbers required.
+EduLearn is a collaborative learning platform built on **offline mesh networking**. It enables secure, decentralised peer-to-peer messaging and educational content sharing over Bluetooth LE — no internet, no servers, no phone numbers required.
 
 The app operates in two modes:
 - **Chat Mode** — Encrypted P2P messaging through a Bluetooth mesh network with IRC-style commands, channels, and private messaging.
